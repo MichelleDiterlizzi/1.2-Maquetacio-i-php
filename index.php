@@ -98,5 +98,17 @@ function verificarGrau($nota) {
 
 echo verificarGrau(40)."<br>";
 
+//EJERCICIO 6;
+function isBitten(){
+    return rand(0,1);
+}
+
+if (isBitten()===1){
+    echo "Charlie me ha mordido el dedo!";
+}
+else{
+    echo "Charlie no me ha mordido el dedo!";
+}
+
 ?>
 
